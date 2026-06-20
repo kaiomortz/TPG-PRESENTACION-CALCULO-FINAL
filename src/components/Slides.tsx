@@ -354,7 +354,7 @@ export const slideList = [
               <Clock size={16} /> ¿Por qué bajaron los casos hacia 2018?
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mt-2">
-              El mínimo local alrededor de 2018 coincide con los primeros efectos positivos de las políticas implementadas desde 2009[cite: 191]. En dicho año se creó un fondo nacional para las prefecturas y autoridades locales para implementar iniciativas de prevención[cite: 193]. Además, en 2006 fue promulgada la Ley Básica sobre Medidas para la Prevención del Suicidio[cite: 200].
+              El mínimo local alrededor de 2018 coincide con los primeros efectos positivos de las políticas implementadas desde 2009. En dicho año se creó un fondo nacional para las prefecturas y autoridades locales para implementar iniciativas de prevención. Además, en 2006 fue promulgada la Ley Básica sobre Medidas para la Prevención del Suicidio.
             </p>
           </div>
           
@@ -363,7 +363,7 @@ export const slideList = [
               <TrendingDown size={16} /> ¿Qué explica el pico de 2022?
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mt-2">
-              El máximo hacia 2022 probablemente refleje el impacto de la pandemia de COVID-19[cite: 191]. Esta situación agravó el aislamiento y la crisis laboral[cite: 191].
+              El máximo hacia 2022 probablemente refleje el impacto de la pandemia de COVID-19. Esta situación agravó el aislamiento y la crisis laboral.
             </p>
           </div>
 
@@ -372,7 +372,7 @@ export const slideList = [
               <Users size={16} /> ¿Existen otros factores involucrados?
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mt-2">
-              El fenómeno está influenciado por múltiples factores sociales, económicos y sanitarios[cite: 197]. Resulta pertinente evaluar causas según rango etario, prefecturas, ocupación y género[cite: 190].
+              El fenómeno está influenciado por múltiples factores sociales, económicos y sanitarios. Resulta pertinente evaluar causas según rango etario, prefecturas, ocupación y género.
             </p>
           </div>
         </div>
@@ -384,10 +384,10 @@ export const slideList = [
           </h3>
           <div className="relative z-10">
             <p className="text-slate-200 leading-relaxed text-sm lg:text-base mb-6 font-light">
-              La tendencia decreciente observada en la función ajustada es consistente con la evolución histórica de los suicidios en Japón[cite: 196]. Los resultados obtenidos permiten reflexionar sobre la importancia de las políticas públicas y del acceso a la salud mental como herramientas de prevención[cite: 199]. Se estima que, si continúan con estas medidas, la cantidad de muertes disminuirían[cite: 198].
+              La tendencia decreciente observada en la función ajustada es consistente con la evolución histórica de los suicidios en Japón. Los resultados obtenidos permiten reflexionar sobre la importancia de las políticas públicas y del acceso a la salud mental como herramientas de prevención. Se estima que, si continúan con estas medidas, la cantidad de muertes disminuirían.
             </p>
             <blockquote className="border-l-2 border-blue-400 pl-4 py-2 italic text-sm text-blue-200 font-medium bg-slate-900/30 rounded-r-lg">
-              Dejando de considerar al suicidio como un asunto estrictamente individual para reconocerlo como una problemática social en la que el Estado, las instituciones y la comunidad desempeñan un papel fundamental para brindar contención y reducir su incidencia[cite: 200].
+              Dejando de considerar al suicidio como un asunto estrictamente individual para reconocerlo como una problemática social en la que el Estado, las instituciones y la comunidad desempeñan un papel fundamental para brindar contención y reducir su incidencia.
             </blockquote>
           </div>
         </div>
