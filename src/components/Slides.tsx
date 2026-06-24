@@ -301,7 +301,8 @@ export const slideList = [
     </div>
   ),
 
-  // Slide 7: Conceptos Clave: Integrales
+// Slide 7: Conceptos Clave: Integrales
+// Slide 7: Conceptos Clave: Integrales
   () => (
     <div className="flex flex-col h-full animate-in fade-in duration-500">
       <div className="flex items-center gap-4 mb-6">
@@ -319,10 +320,17 @@ export const slideList = [
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1">
             <h3 className="font-bold text-slate-800 mb-3 flex items-center gap-2"><Activity size={18}/> Operación</h3>
-            <div className="bg-slate-50 p-4 font-mono text-xs text-slate-700 rounded-xl overflow-x-auto shadow-inner border border-slate-200 border-b-4 mb-4">
-              <span className="text-sky-600 font-bold">∫</span> [11, 0] g(x) dx <br/>
-              = G(11) - G(0) <br/>
-              ≈ 236,330
+            <div className="bg-slate-50 p-4 font-mono text-xs text-slate-700 rounded-xl overflow-x-auto shadow-inner border border-slate-200 border-b-4 mb-4 space-y-3">
+              <div>
+                <span className="text-slate-500 font-sans text-[10px] uppercase font-bold tracking-wider block mb-1">Integral Indefinida</span>
+                <span className="text-sky-600 font-bold text-sm">∫</span> g(x) dx = -7.02762x<sup>4</sup> + 172.45945x<sup>3</sup> - 1443.04003x<sup>2</sup> + 25844.1685x + C
+              </div>
+              <div className="pt-2 border-t border-slate-200">
+                <span className="text-slate-500 font-sans text-[10px] uppercase font-bold tracking-wider block mb-1">Integral Definida</span>
+                <span className="text-sky-600 font-bold text-sm">∫</span> [11, 0] g(x) dx <br/>
+                = G(11) - G(0) <br/>
+                ≈ 236.330
+              </div>
             </div>
             <p className="text-xs text-slate-600 leading-relaxed text-justify">
               Al integrar la función del modelo matemático, calculamos el área entera bajo esta curva en el intervalo fijado; esto se traduce de la variable temporal a un total de casos acumulado.
@@ -338,7 +346,6 @@ export const slideList = [
       </div>
     </div>
   ),
-
 // Slide 8: FAQ & Conclusiones Socio-Históricas
   () => (
     <div className="flex flex-col h-full animate-in fade-in duration-500 overflow-y-auto pb-4">
