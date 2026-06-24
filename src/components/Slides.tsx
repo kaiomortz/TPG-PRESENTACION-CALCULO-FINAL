@@ -400,6 +400,34 @@ export const slideList = [
         </div>
       </div>
     </div>
+  ),
+  // Slide 9: Muchas Gracias
+  () => (
+    <div className="flex flex-col items-center justify-center h-full text-center space-y-8 animate-in fade-in duration-1000">
+      <div className="relative">
+        {/* Efecto de brillo de fondo */}
+        <div className="absolute inset-0 bg-blue-400 rounded-full blur-3xl opacity-20 animate-pulse"></div>
+        <div className="w-32 h-32 bg-blue-600 text-white rounded-full flex items-center justify-center relative z-10 shadow-2xl shadow-blue-500/40">
+          <CheckCircle size={64} />
+        </div>
+      </div>
+      
+      <div className="space-y-4">
+        <h1 className="text-6xl font-black text-slate-800 tracking-tight">
+          ¡Muchas Gracias!
+        </h1>
+        <p className="text-2xl text-slate-500 font-medium">
+          Por su atención y respeto durante la exposición.
+        </p>
+      </div>
+
+      <div className="w-20 h-1.5 bg-blue-600 rounded-full"></div>
+
+      <div className="bg-slate-50 px-6 py-3 rounded-full border border-slate-100 text-slate-400 text-sm font-bold uppercase tracking-[0.3em]">
+        Fin de la presentación
+      </div>
+    </div>
   )
+
 ];
 
